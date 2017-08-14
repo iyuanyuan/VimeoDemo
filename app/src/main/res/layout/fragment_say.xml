@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuan.vimeodemo.fragment.SayFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:background="@drawable/bg_side"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:text="中文名：高晓松" />
+
+    <TextView
+        android:background="@drawable/bg_side"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:text="国籍：中国" />
+
+
+    <TextView
+        android:background="@drawable/bg_side"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="名族：汉族" />
+
+    <TextView
+        android:background="@drawable/bg_side"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="星座：天蝎座" />
+
+</FrameLayout>
